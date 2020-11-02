@@ -17,9 +17,12 @@ Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://pu
 * Användaren ska kunna trycka på "See More" för att komma till "Beer Info Page" (Se längre ner för info).
 
 
-Search Page
-På denna sida ska användaren kunna söka på en öl genom ett formulär.
-Om man trycker på ett av sökresultaten ska man komma till Beer Info Page.
+#### Search Page
+* Användare ska kunna söka på en öl med hjälp av dess namn
+* Sidan ska använda sig av ett formulär
+* Resultatet av sökningen ska visas i en lista (endast namnen på ölen). 
+* Listan får innehålla max 10 resultat. Om fler än 10 sökresultat finns ska listan vara paginerad.
+
 
 Beer Info Page
 Denna sida ska bara gå att vi någon av de sidorna som beskrivs ovan.
@@ -40,7 +43,7 @@ Fält för att kunna söka på en öl baserat på deras namn, humle (hops), elle
 Fälten “Brewed before” och “Brewed after” som låter användaren söka på öl baserat på när de bryggdes. Dessa fält ska ta ett år och en månad. Exempelvis 02-2020. Man får använda sig av en datepicker här om man vill.
 Fälten “ABV greater than” och “ABV less than”. Fälten ska ta en siffra och låter användaren söka på en öl baserat på dess Alcohol by volume (Alkohol per volym).
 Formuläret ska låta användaren söka på en kombination av flera sökkriterier, exempel: name=ipa, hops=Ahtanum, Brewed before = 02-2020.
-Resultatet av sökningen ska visas i en lista (endast namnen på ölen). Listan får innehålla max 10 resultat. Om fler än 10 sökresultat finns ska listan vara paginerad.
+
 Sökformuläret ska inkludera enkel validering:
 “Brewed before” ska inte kunna vara ett datum efter “Brewed after” om båda fälten är angivna.
 Man ska endast kunna ange numeriska värden för fälten “ABV greater than” och  “ABV less than”.
