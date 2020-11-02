@@ -28,14 +28,14 @@ Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://pu
 * Denna sida ska bara gå att vi någon av de sidorna som beskrivs ovan.
 * På denna sida ska användaren kunna få detaljerad information om en specifik öl.
 * Sidan ska minst innehålla:
-- Description
-- Image
-- Alcohol by volume 
-- Volume
-- Ingredients
-- Hops 
-- Food pairing
-- Brewers tips
+		- Description
+		- Image
+		- Alcohol by volume 
+		- Volume
+		- Ingredients
+		- Hops 
+		- Food pairing
+		- Brewers tips
 
 Bonus (VG-uppgifter)
 		Formuläret ska innehålla:
