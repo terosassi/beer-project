@@ -13,7 +13,7 @@ Landing Page (Random beer)
 Sidan ska låta användaren trycka på en knapp för att slumpa fram en öl. 
 Namnet och bilden på den slumpade ölen ska man se i ett “card” (se nedan för exempel). 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![alt text](https://github.com/niklaszocom/beer-project/blob/main/Namnl%C3%B6s.jpg)
                                     
 Trycker man på “See More” ska man komma till Beer Info Page (Se längre ner). Alternativt kan man slumpa fram en ny öl
 
