@@ -18,24 +18,24 @@ Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://pu
 
 
 #### Search Page
-* Användare ska kunna söka på en öl med hjälp av dess namn
-* Sidan ska använda sig av ett formulär
+* Användare ska kunna söka på en öl med hjälp av dess namn.
+* Sidan ska använda sig av ett formulär.
 * Resultatet av sökningen ska visas i en lista (endast namnen på ölen). 
 * Listan får innehålla max 10 resultat. Om fler än 10 sökresultat finns ska listan vara paginerad.
 
 
-Beer Info Page
-Denna sida ska bara gå att vi någon av de sidorna som beskrivs ovan.
-På denna sida ska användaren kunna få detaljerad information om en specifik öl.
-Minimikrav på vilken information som ska finnas är (se https://punkapi.com/documentation/v2 för mer info om de olika egenskaperna):
-Description
-Image
-Alcohol by volume 
-Volume
-Ingredients
-Hops 
-Food pairing
-Brewers tips
+#### Beer Info Page
+* Denna sida ska bara gå att vi någon av de sidorna som beskrivs ovan.
+* På denna sida ska användaren kunna få detaljerad information om en specifik öl.
+* Sidan ska minst innehålla:
+** Description
+** Image
+** Alcohol by volume 
+** Volume
+** Ingredients
+** Hops 
+** Food pairing
+** Brewers tips
 
 Bonus (VG-uppgifter)
 		Formuläret ska innehålla:
