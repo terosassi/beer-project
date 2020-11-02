@@ -9,7 +9,7 @@ Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://pu
 
 ### G-krav
 #### Landing Page (Random beer)
-* Användaren ska kunna slumpa fram en öl genom att trycka på en knapp.
+* Användaren ska kunna slumpa fram en öl genom att trycka på en knapp exempelvis.
 * Namnet och bilden på den slumpade ölen ska man se i ett “card” (se nedan för exempel).
 
 ![alt text](https://github.com/niklaszocom/beer-project/blob/main/Namnl%C3%B6s.jpg)
