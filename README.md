@@ -37,7 +37,7 @@ Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://pu
     * Food pairing
     * Brewers tips
 
-### Bonus (VG-uppgifter)
+### Bonus (VG-krav)
 
 #### Search Page
 * Användare ska kunna göra avancerade sökningar.
