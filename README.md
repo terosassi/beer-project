@@ -3,7 +3,7 @@
 Utse en gruppledare som forkar det här repot och bjuder in de andra som collaborators.
 
 ## Punk API
-Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://punkapi.com/documentation/v2). Hemsidan ska bestå av tre olika vyer (sidor)(se nedan för information om de olika sidorna). Förutom de krav som specificeras nedan har ni fria händer (exempelvis gällande design).
+Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://punkapi.com/documentation/v2). Hemsidan ska bestå av tre olika vyer (sidor)(se nedan för information om de olika sidorna). Sidorna behöver inte nödvändigtvis vara enskilda HTML-dokument. Ett dokument som använder DOM-manipulation för att visa olika (sidor) innhåll är helt okej. Kravet är att EN sida (och inte fler!) ska visas i taget. Förutom de krav som specificeras nedan har ni fria händer (exempelvis gällande design).
 
 ## Kravspecifikation
 
