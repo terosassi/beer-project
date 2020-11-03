@@ -22,6 +22,7 @@ Ni ska bygga en öl-wiki som använder sig av data från Punk API:et (https://pu
 * Sidan ska använda sig av ett formulär.
 * Resultatet av sökningen ska visas i en lista (endast namnen på ölen). 
 * Listan får innehålla max 10 resultat. Om fler än 10 sökresultat finns ska listan vara paginerad.
+* Klickar man på ett sökresultat ska man komma till Beer Info Page för den ölen.
 
 
 #### Beer Info Page
