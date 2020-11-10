@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Wiki Beer</title>
 </head>
 
@@ -22,12 +22,10 @@
                     <li id="exit" class="exit-btn hide-desktop">
                         <img src="exit.svg" alt="exit menu">
                     </li>
-                    <li><a href="index.html" class="link1">Home</a></li>
-                    <li><a href="beer.html">Beer</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Beer</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-
-                    <input type="text" name="search" placeholder="Search.." class="search1" results="0">
-                    </li>
                 </ul>
             </nav>
         </header>
@@ -68,18 +66,24 @@
             </div>
         </div>
     </div>
-    <div class="gray-container">
-        <div class="container">
-
-            <p>Random beer on card</p>
-            <button class="sbtn">Random Beer</button>
-
+     <div class="gray-container"> 
+        <button class="sbtn" id="rnd-btn">Random Beer</button>
+        <div class="crd-container" id="container-id">
+            
         </div>
     </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     <div class="container">
         <h2>Search For a beer</h2>
         <input type="text" name="search" placeholder="Search.." class="search">
-
+        <p>return value</p>
     </div>
     <footer>
         <div class="footer">
