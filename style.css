@@ -22,8 +22,8 @@ ul {
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 160px;
 }
 
 header {
@@ -159,7 +159,14 @@ h1,
     position: relative;
     z-index: 4;
 }
+.button {
+    font-style: oblique;
+    color: lightsalmon;
+    font-style: initial;
+    font-display: normal;
+    font-size: 30px;
 
+}
 .footer {
     width: 100%;
     background: #00C2FF;

@@ -1,4 +1,4 @@
-//när jag använder let istället för var får jag syntax error:identifier already decleared
+/när jag använder let istället för var får jag syntax error:identifier already decleared
 
 var menu = document.getElementById('menu');
 var nav = document.getElementById('nav');
