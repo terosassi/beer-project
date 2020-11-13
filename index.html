@@ -37,42 +37,53 @@
     </div>
     <div class="blue-container">
         <div class="container">
-            <ul>
-              <a href="#">Bear 1
-
-               <a href="#">Beer 2
-
-               <a href="#">Beer 3
-
-                    <a href="#">Beer 4
-                      
-                        <a href="#">Beer 5
-
-                            <a href="#">Beer 6
-
-                                <a href="#">Beer 7
-
-                                    <a href="#">Beer 8
-                                       
-                                        <a href="#">Beer 9
-                                      
-                                          <a href="#">Beer 10
-
+            <input type="hidden" id="show" value="1">
+            <ul id="list">
+                <div id="1">
+                    <img src="img/1.jpg">
+                </div>
+                <div id="2" style="display: none">
+                    <img src="img/2.jpg">
+                </div>
+                <div id="3" style="display: none">
+                    <img src="img/3.jpg">
+                </div>
+                <div id="4" style="display: none">
+                    <img src="img/4.jpg">
+                </div>
+                <div id="5" style="display: none">
+                    <img src="img/5.jpg">
+                </div>
+                <div id="6" style="display: none">
+                    <img src="img/6.jpg">
+                </div>
+                <div id="7" style="display: none">
+                    <img src="img/7.jpg">
+                </div>
+                <div id="8" style="display: none">
+                    <img src="img/8.jpg">
+                </div>
+                <div id="9" style="display: none">
+                    <img src="img/9.jpg">
+                </div>
+                <div id="10" style="display: none">
+                    <img src="img/10.jpg">
+                </div>
             </ul>
             <div class="pagination">
-                <a id="previousBtn">&laquo;</a>
+                <a onclick="prev()" id="previousBtn" style="cursor: pointer">&laquo;</a>
                 <a id="padination_text">1</a>
-                <a id="nextBtn">&raquo;</a>
+                <a onclick="next()" id="nextBtn" style="cursor: pointer;">&raquo;</a>
             </div>
         </div>
     </div>
      <div class="gray-container"> 
-        <button class="sbtn" id="rnd-btn">Random Beer</button>
+        <button onclick="location.href= 'https://www.brewdog.com/usa/punk-ipa-usa'" class="sbtn" id="rnd-btn">Random Beer</button>
         <div class="crd-container" id="container-id">
             
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem; margin-left: auto; margin-right: auto">
         <img class="card-img-top" src="BeerCard.jpg" alt="Card image cap">
         <div class="card-body">
           <h2 class="card-title">Brewdog Punk IPA</h2>

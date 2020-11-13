@@ -1,4 +1,3 @@
-/när jag använder let istället för var får jag syntax error:identifier already decleared
 
 var menu = document.getElementById('menu');
 var nav = document.getElementById('nav');
@@ -6,6 +5,40 @@ var exit = document.getElementById('exit');
 var startUrl = 'https://api.punkapi.com/v2/beers/random';
 
 startProgram();
+
+function prev() {
+    const show = document.getElementById('show')
+    const now = Number(show.value) - 1
+    if (now > 0) {
+        hideDiv()
+        showDiv(now)
+        show.value = now
+        document.getElementById('padination_text').innerText = now
+    }
+}
+
+function next() {
+    const show = document.getElementById('show')
+    const now = Number(show.value) + 1
+    if (now < 11) {
+        hideDiv()
+        showDiv(now)
+        show.value = now
+        document.getElementById('padination_text').innerText = now
+    }
+}
+
+function hideDiv() {
+    const divs = [1,2,3,4,5,6,7,8,9,10]
+    divs.forEach(function(div) {
+        document.getElementById(div).style.display = 'none'
+    })
+}
+
+function showDiv(div) {
+    document.getElementById(div).style.display = 'block'
+}
+
 
 async function startProgram() {
     let data = await fetchData(startUrl)
