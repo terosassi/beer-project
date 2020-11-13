@@ -1,3 +1,4 @@
+//när jag använder let istället för var får jag syntax error:identifier already decleared
 
 var menu = document.getElementById('menu');
 var nav = document.getElementById('nav');
@@ -31,17 +32,18 @@ function next() {
 function hideDiv() {
     const divs = [1,2,3,4,5,6,7,8,9,10]
     divs.forEach(function(div) {
-        document.getElementById(div).style.display = 'none'
+        document.getElementById(div).style.display = 'none';
     })
 }
 
 function showDiv(div) {
-    document.getElementById(div).style.display = 'block'
+    document.getElementById(div).style.display = 'block';
 }
 
 
 async function startProgram() {
-    let data = await fetchData(startUrl)
+    document.getElementById('container-id').innerHTML  ='<p>please wait...</p>';
+    let data = await fetchData(startUrl);
     let beer = data[0];
     if (beer.image_url != null) {
         beerCard(beer);
@@ -65,25 +67,19 @@ async function fetchData(startUrl) {
 }
 
 function beerCard(beer) {
+    document.getElementById('container-id').innerHTML  =''
      let card = document.querySelector('.crd-container')
     let beerImg = document.createElement('img');
     let beerName = document.createElement('p');
-    let seeMore = document.createElement('a');
-    let linkText = document.createTextNode('See More');
 
     beerImg.setAttribute('id', 'img-id');
     beerName.setAttribute('id', 'name-id');
-    seeMore.setAttribute('id', 'cmore-id');
 
     beerImg.src = beer.image_url;
     beerName.textContent = beer.name;
-    seeMore.title = 'See More';
-    seeMore.href = 'http://google.com';
 
-    seeMore.appendChild(linkText);
     card.appendChild(beerImg);
     card.appendChild(beerName);
-    card.appendChild(seeMore);
     
 }
 
